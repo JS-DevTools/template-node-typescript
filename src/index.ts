@@ -1,12 +1,12 @@
 import { projectExportName } from "./project-package-name";
 
-// Export `projectExportName` as a named export and the default export
-// tslint:disable: no-default-export
-export default projectExportName;
+export { Options } from "./settings";
 export { projectExportName };
 
-// Other exports
-export { Options } from "./settings";
+// Export `projectExportName` as the default export
+// tslint:disable: no-default-export
+export default projectExportName;
+
 
 // CommonJS default export hack
 if (typeof module === "object" && typeof module.exports === "object") {
