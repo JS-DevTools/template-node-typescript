@@ -3,7 +3,7 @@ import { Options, Settings } from "./settings";
 /**
  * This is the project description
  *
- * @returns - The new version number
+ * @returns - Options
  */
 export function projectExportName(options?: Options): string {
   let settings = new Settings(options);
