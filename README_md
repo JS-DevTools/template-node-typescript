@@ -36,7 +36,7 @@ Installation
 You can install `project-package-name` via [npm](https://docs.npmjs.com/about-npm/).
 
 ```bash
-npm install -g project-package-name
+npm install project-package-name
 ```
 
 
