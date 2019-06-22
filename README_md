@@ -1,4 +1,5 @@
 # Friendly Project Name
+This is the project description
 
 [![Cross-Platform Compatibility](https://jsdevtools.org/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/project-package-name)
 [![Build Status](https://api.travis-ci.com/JS-DevTools/project-package-name.svg?branch=master)](https://travis-ci.com/JS-DevTools/project-package-name)
@@ -11,7 +12,6 @@
 
 
 
-This is the project description
 
 
 
