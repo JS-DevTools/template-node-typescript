@@ -22,10 +22,10 @@ describe("project-package-name package exports", () => {
   });
 
   it("should not export anything else", () => {
-    expect(Object.keys(commonJSExport)).to.have.same.members([
+    expect(commonJSExport).to.have.same.keys(
       "default",
       "projectExportName",
-    ]);
+    );
   });
 
 });
