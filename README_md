@@ -1,7 +1,8 @@
-# Friendly Project Name
+Friendly Project Name
+==============================================
 This is the project description
 
-[![Cross-Platform Compatibility](https://jsdevtools.org/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/project-package-name)
+[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://travis-ci.com/JS-DevTools/project-package-name)
 [![Build Status](https://api.travis-ci.com/JS-DevTools/project-package-name.svg?branch=master)](https://travis-ci.com/JS-DevTools/project-package-name)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/project-package-name/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/project-package-name)
@@ -78,6 +79,6 @@ Big Thanks To
 --------------------------
 Thanks to these awesome companies for their support of Open Source developers ❤
 
-[![Travis CI](https://jsdevtools.org/img/badges/travis-ci.svg)](https://travis-ci.com)
-[![SauceLabs](https://jsdevtools.org/img/badges/sauce-labs.svg)](https://saucelabs.com)
-[![Coveralls](https://jsdevtools.org/img/badges/coveralls.svg)](https://coveralls.io)
+[![Travis CI](https://jstools.dev/img/badges/travis-ci.svg)](https://travis-ci.com)
+[![SauceLabs](https://jstools.dev/img/badges/sauce-labs.svg)](https://saucelabs.com)
+[![Coveralls](https://jstools.dev/img/badges/coveralls.svg)](https://coveralls.io)
