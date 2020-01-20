@@ -1,6 +1,9 @@
 # Git ignore
 # https://git-scm.com/docs/gitignore
 
+# Private files
+.env
+
 # Miscellaneous
 *~
 *#
