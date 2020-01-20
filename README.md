@@ -22,7 +22,9 @@ If you **don't** need a CLI, then:
     - `bin`
     - `files.bin`
     - `devDependencies.chai-exec`
+    - `devDependencies.@types/command-line-args`
     - `dependencies.command-line-args`
+  - Delete the `Run CLI` config from `.vscode/launch.json`
 
 
 
