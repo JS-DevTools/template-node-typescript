@@ -14,7 +14,7 @@
     "url": "https://github.com/JS-DevTools/project-package-name.git"
   },
   "main": "lib/index.js",
-  "types": "lib/index.d.js",
+  "types": "lib/index.d.ts",
   "bin": {
     "project-cli-name": "bin/project-cli-name.js"
   },
