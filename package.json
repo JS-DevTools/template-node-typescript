@@ -36,7 +36,7 @@
     "release": "npm run upgrade && npm run clean && npm run build && npm test && npm run bump"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
