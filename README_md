@@ -34,7 +34,7 @@ import projectExportName from "project-package-name";
 
 Installation
 --------------------------
-You can install `project-package-name` via [npm](https://docs.npmjs.com/about-npm/).
+You can install Friendly Project Name via [npm](https://docs.npmjs.com/about-npm/).
 
 ```bash
 npm install project-package-name
@@ -71,7 +71,7 @@ To build the project locally on your computer:
 
 License
 --------------------------
-project-package-name is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+Friendly Project Name is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
 
 
 
