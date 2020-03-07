@@ -8,8 +8,8 @@ Friendly Project Name
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/project-package-name/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/project-package-name)
 [![Dependencies](https://david-dm.org/JS-DevTools/project-package-name.svg)](https://david-dm.org/JS-DevTools/project-package-name)
 
-[![npm](https://img.shields.io/npm/v/project-package-name.svg)](https://www.npmjs.com/package/project-package-name)
-[![License](https://img.shields.io/npm/l/project-package-name.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@jsdevtools/project-package-name.svg)](https://www.npmjs.com/package/@jsdevtools/project-package-name)
+[![License](https://img.shields.io/npm/l/@jsdevtools/project-package-name.svg)](LICENSE)
 
 
 
@@ -25,7 +25,7 @@ Example
 --------------------------
 
 ```javascript
-import projectExportName from "project-package-name";
+import projectExportName from "@jsdevtools/project-package-name";
 
 // TODO: Add a usage example here
 ```
@@ -37,7 +37,7 @@ Installation
 You can install Friendly Project Name via [npm](https://docs.npmjs.com/about-npm/).
 
 ```bash
-npm install project-package-name
+npm install @jsdevtools/project-package-name
 ```
 
 
