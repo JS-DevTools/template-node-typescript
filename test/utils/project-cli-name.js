@@ -1,7 +1,7 @@
 "use strict";
 
 const chai = require("chai");
-const chaiExec = require("chai-exec");
+const chaiExec = require("@jsdevtools/chai-exec");
 
 // Add the Chai-Exec plugin for testing the CLI
 chai.use(chaiExec);
