@@ -10,7 +10,7 @@ chai.use(chaiExec);
 // so we don't have to specify it for every test.
 chaiExec.defaults = {
   command: "node",
-  args: "bin/project-cli-name.js",
+  args: "bin/my-cli.js",
 };
 
 module.exports = chaiExec;

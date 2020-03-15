@@ -1,11 +1,11 @@
 import { Options, Settings } from "./settings";
 
 /**
- * This is the project description
+ * The description of my library
  *
  * @returns - Options
  */
-export function projectExportName(options?: Options): string {
+export function myLibrary(options?: Options): string {
   let settings = new Settings(options);
 
   if (settings.greeting === "Goodbye") {

@@ -1,22 +1,22 @@
 {
-  "name": "@jsdevtools/project-package-name",
+  "name": "@my-npm-scope/my-package-name",
   "version": "0.0.1",
-  "description": "This is the project description",
+  "description": "The description of my library",
   "keywords": [],
   "author": {
     "name": "James Messinger",
     "url": "https://jamesmessinger.com"
   },
   "license": "MIT",
-  "homepage": "https://jstools.dev/project-package-name",
+  "homepage": "https://jstools.dev/my-package-name",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JS-DevTools/project-package-name.git"
+    "url": "https://github.com/MyGitHubOrg/my-package-name.git"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
-    "project-cli-name": "bin/project-cli-name.js"
+    "my-cli": "bin/my-cli.js"
   },
   "files": [
     "bin",

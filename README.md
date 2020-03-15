@@ -17,7 +17,7 @@ If you **don't** need a CLI, then:
     - `bin`
     - `src/cli`
     - `test/specs/cli.spec.js`
-    - `test/utils/project-cli-name.js`
+    - `test/utils/my-cli.js`
   - Delete the following fields in `package.json`:
     - `bin`
     - `files.bin`
@@ -34,11 +34,14 @@ Replace all occurrences of the following placeholders in all files:
 
 |Placeholder                        |Description
 |:----------------------------------|:------------------------------------------------------------
-|`project-package-name`             |This is the name of the NPM package. It should also match the GitHub repo name. It should be kebab-cased.
-|`project-cli-name`                 |The name of the CLI program for this project, if any.
-|`projectExportName`                |The name of the library's default export, if any.  This should be a valid JavaScript identifier name.
-|`Friendly Project Name`            |This is the human friendly name of the project that is used in the ReadMe, descriptions, and docs pages
-|`This is the project description`  |A short, human friendly description of the project that is used in the ReadMe and package.json
+|`MyGitHubOrg`                      |This is the name of the GitHub org for this repository, such as "JS-DevTools".
+|`MyTwitterAccount`                 |This is the name of the Twitter account associated with this project, such as "JSDevTools".
+|`@my-npm-scope`                    |This is the name of the NPM scope that the package will be published to, such as "@jsdevtools".
+|`my-package-name`                  |This is the name of the NPM package. It should also match the GitHub repo name. It should be kebab-cased.
+|`my-cli`                           |The name of the CLI program for this project, if any.
+|`myLibrary`                        |The name of the library's default export, if any.  This should be a valid JavaScript identifier name.
+|`My Project Name`                  |This is the human friendly name of the project that is used in the ReadMe, descriptions, and docs pages
+|`The description of my library`    |A short, human friendly description of the project that is used in the ReadMe and package.json
 
 
 

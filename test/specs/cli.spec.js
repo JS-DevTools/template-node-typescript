@@ -1,45 +1,45 @@
 "use strict";
 
-const projectExportName = require("../utils/project-cli-name");
+const myLibrary = require("../utils/my-cli");
 const manifest = require("../../package.json");
 const { expect } = require("chai");
 
-describe("project-cli-name", () => {
+describe("my-cli", () => {
 
   it("should run without any arguments", () => {
     // Run the CLI without any arguments.
-    let cli = projectExportName("");
+    let cli = myLibrary("");
 
     // It should have printed the default greeting
     expect(cli).to.have.stdout("Hello, world.\n");
   });
 
   it("should error if an invalid argument is used", () => {
-    let cli = projectExportName("--fizzbuzz");
+    let cli = myLibrary("--fizzbuzz");
 
     expect(cli).to.have.exitCode(9);
     expect(cli).to.have.stdout("");
-    expect(cli).to.have.stderr.that.matches(/^Unknown option: --fizzbuzz\n\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stderr.that.matches(/^Unknown option: --fizzbuzz\n\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
   it("should error if an invalid shorthand argument is used", () => {
-    let cli = projectExportName("-qhzt");
+    let cli = myLibrary("-qhzt");
 
     expect(cli).to.have.exitCode(9);
     expect(cli).to.have.stdout("");
-    expect(cli).to.have.stderr.that.matches(/^Unknown option: -z\n\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stderr.that.matches(/^Unknown option: -z\n\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
   it("should error if an argument is missing its value", () => {
-    let cli = projectExportName("--subject");
+    let cli = myLibrary("--subject");
 
     expect(cli).to.have.exitCode(9);
     expect(cli).to.have.stdout("");
-    expect(cli).to.have.stderr.that.matches(/^The --subject option requires a value\.\n\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stderr.that.matches(/^The --subject option requires a value\.\n\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
   it("should print a more detailed error if DEBUG is set", () => {
-    let cli = projectExportName("--greeting Goodbye", { env: { DEBUG: "true" }});
+    let cli = myLibrary("--greeting Goodbye", { env: { DEBUG: "true" }});
 
     expect(cli).to.have.stdout("");
     expect(cli).to.have.exitCode(1);
@@ -48,50 +48,50 @@ describe("project-cli-name", () => {
 
 });
 
-describe("project-cli-name --help", () => {
+describe("my-cli --help", () => {
 
   it("should show usage text", () => {
-    let cli = projectExportName("--help");
+    let cli = myLibrary("--help");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
     expect(cli).to.have.stdout.that.contains(manifest.description);
-    expect(cli).to.have.stdout.that.matches(/\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stdout.that.matches(/\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
   it("should support -h shorthand", () => {
-    let cli = projectExportName("-h");
+    let cli = myLibrary("-h");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
     expect(cli).to.have.stdout.that.contains(manifest.description);
-    expect(cli).to.have.stdout.that.matches(/\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stdout.that.matches(/\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
   it("should ignore other arguments", () => {
-    let cli = projectExportName("--quiet --help --version");
+    let cli = myLibrary("--quiet --help --version");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
     expect(cli).to.have.stdout.that.contains(manifest.description);
-    expect(cli).to.have.stdout.that.matches(/\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stdout.that.matches(/\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
   it("should ignore other shorthand arguments", () => {
-    let cli = projectExportName("-qhv");
+    let cli = myLibrary("-qhv");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
     expect(cli).to.have.stdout.that.contains(manifest.description);
-    expect(cli).to.have.stdout.that.matches(/\nUsage: project-cli-name \[options\] \[files...\]\n/);
+    expect(cli).to.have.stdout.that.matches(/\nUsage: my-cli \[options\] \[files...\]\n/);
   });
 
 });
 
-describe("project-cli-name --version", () => {
+describe("my-cli --version", () => {
 
   it("should show the version number", () => {
-    let cli = projectExportName("--version");
+    let cli = myLibrary("--version");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
@@ -99,7 +99,7 @@ describe("project-cli-name --version", () => {
   });
 
   it("should support -v shorthand", () => {
-    let cli = projectExportName("-v");
+    let cli = myLibrary("-v");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
@@ -107,7 +107,7 @@ describe("project-cli-name --version", () => {
   });
 
   it("should ignore other arguments", () => {
-    let cli = projectExportName("--quiet --version");
+    let cli = myLibrary("--quiet --version");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");
@@ -115,7 +115,7 @@ describe("project-cli-name --version", () => {
   });
 
   it("should ignore other shorthand arguments", () => {
-    let cli = projectExportName("-qv");
+    let cli = myLibrary("-qv");
 
     expect(cli).to.have.exitCode(0);
     expect(cli).to.have.stderr("");

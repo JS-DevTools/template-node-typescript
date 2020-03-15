@@ -1,5 +1,5 @@
 // tslint:disable: no-console
-import { projectExportName } from "..";
+import { myLibrary } from "..";
 import { ExitCode } from "./exit-code";
 import { helpText } from "./help";
 import { manifest } from "./manifest";
@@ -30,7 +30,7 @@ export function main(args: string[]): void {
       process.exit(ExitCode.Success);
     }
     else {
-      let result = projectExportName(options);
+      let result = myLibrary(options);
 
       if (!quiet) {
         console.log(result);

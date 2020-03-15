@@ -1,15 +1,15 @@
-remote_theme: JS-DevTools/gh-pages-theme
+remote_theme: MyGitHubOrg/gh-pages-theme
 
-title: Friendly Project Name
+title: My Project Name
 logo: https://jstools.dev/img/logos/logo.png
 
 author:
-  twitter: JSDevTools
+  twitter: MyTwitterAccount
 
 google_analytics: UA-68102273-3
 
 twitter:
-  username: JSDevTools
+  username: MyTwitterAccount
   card: summary
 
 defaults:
