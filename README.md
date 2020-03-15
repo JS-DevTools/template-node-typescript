@@ -34,13 +34,14 @@ Replace all occurrences of the following placeholders in all files:
 
 |Placeholder                        |Description
 |:----------------------------------|:------------------------------------------------------------
-|`MyGitHubOrg`                      |This is the name of the GitHub org for this repository, such as "JS-DevTools".
-|`MyTwitterAccount`                 |This is the name of the Twitter account associated with this project, such as "JSDevTools".
-|`@my-npm-scope`                    |This is the name of the NPM scope that the package will be published to, such as "@jsdevtools".
-|`my-package-name`                  |This is the name of the NPM package. It should also match the GitHub repo name. It should be kebab-cased.
-|`my-cli`                           |The name of the CLI program for this project, if any.
+|`MyGitHubOrg`                      |The GitHub org for this repository, such as "JS-DevTools".
+|`my-repo-name`                     |The GitHub repo name
+|`MyTwitterAccount`                 |The Twitter account associated with this project, such as "JSDevTools".
+|`@my-npm-scope`                    |The NPM scope that the package will be published to, such as "@jsdevtools".
+|`my-package-name`                  |The NPM package name. It should be kebab-cased.
+|`my-cli`                           |The CLI command for this project, if any.
 |`myLibrary`                        |The name of the library's default export, if any.  This should be a valid JavaScript identifier name.
-|`My Project Name`                  |This is the human friendly name of the project that is used in the ReadMe, descriptions, and docs pages
+|`My Project Name`                  |The human friendly name of the project that is used in the ReadMe, descriptions, and docs pages
 |`The description of my library`    |A short, human friendly description of the project that is used in the ReadMe and package.json
 
 
