@@ -1,7 +1,7 @@
 remote_theme: MyGitHubOrg/gh-pages-theme
 
 title: My Project Name
-logo: https://jstools.dev/img/logos/logo.png
+logo: https://my-website.com/img/logos/logo.png
 
 author:
   twitter: MyTwitterAccount
@@ -16,7 +16,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://jstools.dev/img/logos/card.png
+      image: https://my-website.com/img/logos/card.png
   - scope:
       path: "test/**/*"
     values:

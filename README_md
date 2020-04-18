@@ -2,7 +2,7 @@ My Project Name
 ==============================================
 ### The description of my library
 
-[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
+[![Cross-Platform Compatibility](https://my-website.com/img/badges/os-badges.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
 [![Build Status](https://github.com/MyGitHubOrg/my-repo-name/workflows/CI-CD/badge.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
 
 [![Coverage Status](https://coveralls.io/repos/github/MyGitHubOrg/my-repo-name/badge.svg?branch=master)](https://coveralls.io/github/MyGitHubOrg/my-repo-name)
@@ -82,6 +82,6 @@ Big Thanks To
 --------------------------
 Thanks to these awesome companies for their support of Open Source developers ❤
 
-[![Travis CI](https://jstools.dev/img/badges/travis-ci.svg)](https://travis-ci.com)
-[![SauceLabs](https://jstools.dev/img/badges/sauce-labs.svg)](https://saucelabs.com)
-[![Coveralls](https://jstools.dev/img/badges/coveralls.svg)](https://coveralls.io)
+[![Travis CI](https://my-website.com/img/badges/travis-ci.svg)](https://travis-ci.com)
+[![SauceLabs](https://my-website.com/img/badges/sauce-labs.svg)](https://saucelabs.com)
+[![Coveralls](https://my-website.com/img/badges/coveralls.svg)](https://coveralls.io)
