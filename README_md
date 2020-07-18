@@ -2,8 +2,8 @@ My Project Name
 ==============================================
 ### The description of my library
 
-[![Cross-Platform Compatibility](https://my-website.com/img/badges/os-badges.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
-[![Build Status](https://github.com/MyGitHubOrg/my-repo-name/workflows/CI-CD/badge.svg)](https://github.com/MyGitHubOrg/my-repo-name/blob/master/.github/workflows/CI-CD.yaml)
+[![Cross-Platform Compatibility](https://my-website.com/img/badges/os-badges.svg)](https://github.com/MyGitHubOrg/my-repo-name/actions)
+[![Build Status](https://github.com/MyGitHubOrg/my-repo-name/workflows/CI-CD/badge.svg)](https://github.com/MyGitHubOrg/my-repo-name/actions)
 
 [![Coverage Status](https://coveralls.io/repos/github/MyGitHubOrg/my-repo-name/badge.svg?branch=master)](https://coveralls.io/github/MyGitHubOrg/my-repo-name)
 [![Dependencies](https://david-dm.org/MyGitHubOrg/my-repo-name.svg)](https://david-dm.org/MyGitHubOrg/my-repo-name)
