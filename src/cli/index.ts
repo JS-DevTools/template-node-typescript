@@ -1,4 +1,3 @@
-// tslint:disable: no-console
 import { myLibrary } from "..";
 import { ExitCode } from "./exit-code";
 import { helpText } from "./help";
